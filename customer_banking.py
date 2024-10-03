@@ -53,7 +53,7 @@ while check_bank_accounts:
             break
 
         except ValueError:
-            print("CD balance must be a positive number.")
+            print("CD balance must be a number.")
 
 
     while True:
